@@ -1,0 +1,29 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Feb 25 10:16:10 2023
+
+Эксперименты с последовательностями a'la Фибоначчи
+
+@author: Юрий Избачков
+"""
+
+
+s1 = [1,1,1,1,1,1]
+
+def next_member_alt (s):
+    return s[-1] + s[-2] + s[-3] + s[-4] - s[-5]
+
+def limit (s):
+    return s[-1]/s[-2]
+
+def limit_reverse (s):
+    return s[-2]/s[-1]
+
+for i in range (0,100,1):
+    s1.append(next_member_alt(s1))
+    print(str(limit(s1)) + " " + str(limit_reverse(s1)))
+    
+# print(s1)
+
+# Предел и обратный предел этой последовательности:
+# 1.883203505913526 0.5310100564595692
