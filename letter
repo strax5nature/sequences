@@ -1,0 +1,27 @@
+Dear Hashim,
+
+My name is Iurii Izbachkov. I am from Moscow (Russia).
+I experimented with mathematical sequences a'la Fibonacci (Lucas).
+Then I calculated the limit values and searched on Google for where these values occur.
+
+I found your article:
+Heat Transport during Colloidal Mixture of Water with Al2O3-SiO2 Nanoparticles within Porous Medium: Semi-Analytical Solutions
+
+In table 2, you and your colleagues refine Turkyilmazoglu's data.
+On the first line you enter the values
+1.8832035 1.883203505 0.53101006 0.531010056
+
+I think more accurate data would be:
+1.883203505913526 0.5310100564595692
+
+This is the numeric value of the limit and inverse limit of the ratio of a member of the sequence to the previous one.
+The sequence looks like this:
+
+Sn = Sn-1 + Sn-2 + Sn-3 + Sn-4 - Sn-5
+
+I have attached a script in Python.
+
+Sincerely,
+Iurii Izbachkov
+
+P.S. It's funny, but my scientific interests are mainly in cultural studies, archeology, ballet and criminal law.
